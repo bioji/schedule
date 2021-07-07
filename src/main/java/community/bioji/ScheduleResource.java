@@ -11,6 +11,6 @@ public class ScheduleResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String possibleDates() {
-        return "Central European Summer Time (CEST): Wednesday 3pm, Thursday 10am or Friday 1pm";
+        return "Central European Summer Time (CEST): Thursday 10am or Friday 1pm";
     }
 }
